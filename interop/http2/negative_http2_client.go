@@ -31,12 +31,12 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/grpclog"
-	"github.com/Hyperledger-TWGC/grpc/interop"
-	testpb "github.com/Hyperledger-TWGC/grpc/interop/grpc_testing"
-	"github.com/Hyperledger-TWGC/grpc/status"
+	"github.com/lizhenyu0128/gm-grpc"
+	"github.com/lizhenyu0128/gm-grpc/codes"
+	"github.com/lizhenyu0128/gm-grpc/grpclog"
+	"github.com/lizhenyu0128/gm-grpc/interop"
+	testpb "github.com/lizhenyu0128/gm-grpc/interop/grpc_testing"
+	"github.com/lizhenyu0128/gm-grpc/status"
 )
 
 var (

@@ -30,10 +30,10 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/internal/leakcheck"
-	"github.com/Hyperledger-TWGC/grpc/internal/transport"
-	"github.com/Hyperledger-TWGC/grpc/status"
+	"github.com/lizhenyu0128/gm-grpc/codes"
+	"github.com/lizhenyu0128/gm-grpc/internal/leakcheck"
+	"github.com/lizhenyu0128/gm-grpc/internal/transport"
+	"github.com/lizhenyu0128/gm-grpc/status"
 )
 
 var (

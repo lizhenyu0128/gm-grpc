@@ -30,13 +30,13 @@ import (
 	"sync/atomic"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/credentials"
-	"github.com/Hyperledger-TWGC/grpc/keepalive"
-	"github.com/Hyperledger-TWGC/grpc/metadata"
-	"github.com/Hyperledger-TWGC/grpc/stats"
-	"github.com/Hyperledger-TWGC/grpc/status"
-	"github.com/Hyperledger-TWGC/grpc/tap"
+	"github.com/lizhenyu0128/gm-grpc/codes"
+	"github.com/lizhenyu0128/gm-grpc/credentials"
+	"github.com/lizhenyu0128/gm-grpc/keepalive"
+	"github.com/lizhenyu0128/gm-grpc/metadata"
+	"github.com/lizhenyu0128/gm-grpc/stats"
+	"github.com/lizhenyu0128/gm-grpc/status"
+	"github.com/lizhenyu0128/gm-grpc/tap"
 )
 
 // recvMsg represents the received msg from the transport. All transport

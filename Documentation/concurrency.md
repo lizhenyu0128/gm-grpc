@@ -27,7 +27,7 @@ goroutine. The same is true for service handlers for streaming RPCs, as seen
 in the route guide example [here][route-guide-stream].
 
 [helloworld]: https://github.com/grpc/grpc-go/blob/master/examples/helloworld/greeter_client/main.go#L43
-[client-conn]: https://godoc.org/github.com/Hyperledger-TWGC/grpc#ClientConn
-[stream]: https://godoc.org/github.com/Hyperledger-TWGC/grpc#Stream
+[client-conn]: https://godoc.org/github.com/lizhenyu0128/gm-grpc#ClientConn
+[stream]: https://godoc.org/github.com/lizhenyu0128/gm-grpc#Stream
 [say-hello]: https://github.com/grpc/grpc-go/blob/master/examples/helloworld/greeter_server/main.go#L41
 [route-guide-stream]: https://github.com/grpc/grpc-go/blob/master/examples/route_guide/server/server.go#L126

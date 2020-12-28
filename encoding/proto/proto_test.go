@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Hyperledger-TWGC/grpc/encoding"
-	"github.com/Hyperledger-TWGC/grpc/test/codec_perf"
+	"github.com/lizhenyu0128/gm-grpc/encoding"
+	"github.com/lizhenyu0128/gm-grpc/test/codec_perf"
 )
 
 func marshalAndUnmarshal(t *testing.T, codec encoding.Codec, expectedBody []byte) {

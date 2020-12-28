@@ -25,7 +25,7 @@ package backoff
 import (
 	"time"
 
-	"github.com/Hyperledger-TWGC/grpc/internal/grpcrand"
+	"github.com/lizhenyu0128/gm-grpc/internal/grpcrand"
 )
 
 // Strategy defines the methodology for backing off after a grpc connection

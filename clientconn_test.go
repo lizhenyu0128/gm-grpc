@@ -28,17 +28,17 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"
-	"github.com/Hyperledger-TWGC/grpc/connectivity"
-	"github.com/Hyperledger-TWGC/grpc/credentials"
-	"github.com/Hyperledger-TWGC/grpc/internal/backoff"
-	"github.com/Hyperledger-TWGC/grpc/internal/leakcheck"
-	"github.com/Hyperledger-TWGC/grpc/internal/transport"
-	"github.com/Hyperledger-TWGC/grpc/keepalive"
-	"github.com/Hyperledger-TWGC/grpc/naming"
-	"github.com/Hyperledger-TWGC/grpc/resolver"
-	"github.com/Hyperledger-TWGC/grpc/resolver/manual"
-	_ "github.com/Hyperledger-TWGC/grpc/resolver/passthrough"
-	"github.com/Hyperledger-TWGC/grpc/testdata"
+	"github.com/lizhenyu0128/gm-grpc/connectivity"
+	"github.com/lizhenyu0128/gm-grpc/credentials"
+	"github.com/lizhenyu0128/gm-grpc/internal/backoff"
+	"github.com/lizhenyu0128/gm-grpc/internal/leakcheck"
+	"github.com/lizhenyu0128/gm-grpc/internal/transport"
+	"github.com/lizhenyu0128/gm-grpc/keepalive"
+	"github.com/lizhenyu0128/gm-grpc/naming"
+	"github.com/lizhenyu0128/gm-grpc/resolver"
+	"github.com/lizhenyu0128/gm-grpc/resolver/manual"
+	_ "github.com/lizhenyu0128/gm-grpc/resolver/passthrough"
+	"github.com/lizhenyu0128/gm-grpc/testdata"
 )
 
 var (

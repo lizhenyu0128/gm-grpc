@@ -24,7 +24,7 @@ import (
 	"testing"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc/testdata"
+	"github.com/lizhenyu0128/gm-grpc/testdata"
 )
 
 func TestTLSOverrideServerName(t *testing.T) {

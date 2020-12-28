@@ -36,7 +36,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Hyperledger-TWGC/grpc/benchmark/stats"
+	"github.com/lizhenyu0128/gm-grpc/benchmark/stats"
 )
 
 func createMap(fileName string, m map[string]stats.BenchResults) {

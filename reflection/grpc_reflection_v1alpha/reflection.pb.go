@@ -9,7 +9,7 @@ import math "math"
 
 import (
 	context "golang.org/x/net/context"
-	grpc "github.com/Hyperledger-TWGC/grpc"
+	grpc "github.com/lizhenyu0128/gm-grpc"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -791,7 +791,7 @@ const _ = grpc.SupportPackageIsVersion4
 
 // ServerReflectionClient is the client API for ServerReflection service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/Hyperledger-TWGC/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/lizhenyu0128/gm-grpc#ClientConn.NewStream.
 type ServerReflectionClient interface {
 	// The reflection service is structured as a bidirectional stream, ensuring
 	// all related requests go to a single server.

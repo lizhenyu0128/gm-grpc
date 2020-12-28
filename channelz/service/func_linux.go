@@ -22,8 +22,8 @@ package service
 
 import (
 	"github.com/golang/protobuf/ptypes"
-	channelzpb "github.com/Hyperledger-TWGC/grpc/channelz/grpc_channelz_v1"
-	"github.com/Hyperledger-TWGC/grpc/internal/channelz"
+	channelzpb "github.com/lizhenyu0128/gm-grpc/channelz/grpc_channelz_v1"
+	"github.com/lizhenyu0128/gm-grpc/internal/channelz"
 )
 
 func sockoptToProto(skopts *channelz.SocketOptionData) []*channelzpb.SocketOption {

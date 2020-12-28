@@ -17,7 +17,7 @@ matrix:
   - go: 1.8.x
   - go: 1.6.x
 
-go_import_path: github.com/Hyperledger-TWGC/grpc
+go_import_path: github.com/lizhenyu0128/gm-grpc
 
 before_install:
   - if [[ "${GO111MODULE}" = "on" ]]; then mkdir "${HOME}/go"; export GOPATH="${HOME}/go"; fi

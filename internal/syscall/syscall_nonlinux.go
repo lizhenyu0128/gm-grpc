@@ -20,7 +20,7 @@
 
 package syscall
 
-import "github.com/Hyperledger-TWGC/grpc/grpclog"
+import "github.com/lizhenyu0128/gm-grpc/grpclog"
 
 func init() {
 	grpclog.Info("CPU time info is unavailable on non-linux or appengine environment.")

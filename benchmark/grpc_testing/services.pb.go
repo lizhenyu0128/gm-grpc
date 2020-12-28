@@ -9,7 +9,7 @@ import math "math"
 
 import (
 	context "golang.org/x/net/context"
-	grpc "github.com/Hyperledger-TWGC/grpc"
+	grpc "github.com/lizhenyu0128/gm-grpc"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -33,7 +33,7 @@ const _ = grpc.SupportPackageIsVersion4
 
 // BenchmarkServiceClient is the client API for BenchmarkService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/Hyperledger-TWGC/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/lizhenyu0128/gm-grpc#ClientConn.NewStream.
 type BenchmarkServiceClient interface {
 	// One request followed by one response.
 	// The server returns the client payload as-is.
@@ -171,7 +171,7 @@ var _BenchmarkService_serviceDesc = grpc.ServiceDesc{
 
 // WorkerServiceClient is the client API for WorkerService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/Hyperledger-TWGC/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/lizhenyu0128/gm-grpc#ClientConn.NewStream.
 type WorkerServiceClient interface {
 	// Start server with specified workload.
 	// First request sent specifies the ServerConfig followed by ServerStatus

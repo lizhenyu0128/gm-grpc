@@ -31,20 +31,20 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace"
-	"github.com/Hyperledger-TWGC/grpc/balancer"
-	_ "github.com/Hyperledger-TWGC/grpc/balancer/roundrobin" // To register roundrobin.
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/connectivity"
-	"github.com/Hyperledger-TWGC/grpc/credentials"
-	"github.com/Hyperledger-TWGC/grpc/grpclog"
-	"github.com/Hyperledger-TWGC/grpc/internal/backoff"
-	"github.com/Hyperledger-TWGC/grpc/internal/channelz"
-	"github.com/Hyperledger-TWGC/grpc/internal/transport"
-	"github.com/Hyperledger-TWGC/grpc/keepalive"
-	"github.com/Hyperledger-TWGC/grpc/resolver"
-	_ "github.com/Hyperledger-TWGC/grpc/resolver/dns"         // To register dns resolver.
-	_ "github.com/Hyperledger-TWGC/grpc/resolver/passthrough" // To register passthrough resolver.
-	"github.com/Hyperledger-TWGC/grpc/status"
+	"github.com/lizhenyu0128/gm-grpc/balancer"
+	_ "github.com/lizhenyu0128/gm-grpc/balancer/roundrobin" // To register roundrobin.
+	"github.com/lizhenyu0128/gm-grpc/codes"
+	"github.com/lizhenyu0128/gm-grpc/connectivity"
+	"github.com/lizhenyu0128/gm-grpc/credentials"
+	"github.com/lizhenyu0128/gm-grpc/grpclog"
+	"github.com/lizhenyu0128/gm-grpc/internal/backoff"
+	"github.com/lizhenyu0128/gm-grpc/internal/channelz"
+	"github.com/lizhenyu0128/gm-grpc/internal/transport"
+	"github.com/lizhenyu0128/gm-grpc/keepalive"
+	"github.com/lizhenyu0128/gm-grpc/resolver"
+	_ "github.com/lizhenyu0128/gm-grpc/resolver/dns"         // To register dns resolver.
+	_ "github.com/lizhenyu0128/gm-grpc/resolver/passthrough" // To register passthrough resolver.
+	"github.com/lizhenyu0128/gm-grpc/status"
 )
 
 const (

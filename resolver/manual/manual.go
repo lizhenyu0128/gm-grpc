@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Hyperledger-TWGC/grpc/resolver"
+	"github.com/lizhenyu0128/gm-grpc/resolver"
 )
 
 // NewBuilderWithScheme creates a new test resolver builder with the given scheme.

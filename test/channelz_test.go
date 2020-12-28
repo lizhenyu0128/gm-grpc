@@ -27,16 +27,16 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"
-	"github.com/Hyperledger-TWGC/grpc"
-	_ "github.com/Hyperledger-TWGC/grpc/balancer/grpclb"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/internal/channelz"
-	"github.com/Hyperledger-TWGC/grpc/internal/leakcheck"
-	"github.com/Hyperledger-TWGC/grpc/keepalive"
-	"github.com/Hyperledger-TWGC/grpc/resolver"
-	"github.com/Hyperledger-TWGC/grpc/resolver/manual"
-	"github.com/Hyperledger-TWGC/grpc/status"
-	testpb "github.com/Hyperledger-TWGC/grpc/test/grpc_testing"
+	"github.com/lizhenyu0128/gm-grpc"
+	_ "github.com/lizhenyu0128/gm-grpc/balancer/grpclb"
+	"github.com/lizhenyu0128/gm-grpc/codes"
+	"github.com/lizhenyu0128/gm-grpc/internal/channelz"
+	"github.com/lizhenyu0128/gm-grpc/internal/leakcheck"
+	"github.com/lizhenyu0128/gm-grpc/keepalive"
+	"github.com/lizhenyu0128/gm-grpc/resolver"
+	"github.com/lizhenyu0128/gm-grpc/resolver/manual"
+	"github.com/lizhenyu0128/gm-grpc/status"
+	testpb "github.com/lizhenyu0128/gm-grpc/test/grpc_testing"
 )
 
 func (te *test) startServers(ts testpb.TestServiceServer, num int) {

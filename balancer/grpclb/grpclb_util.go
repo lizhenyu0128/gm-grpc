@@ -23,9 +23,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Hyperledger-TWGC/grpc/balancer"
-	"github.com/Hyperledger-TWGC/grpc/connectivity"
-	"github.com/Hyperledger-TWGC/grpc/resolver"
+	"github.com/lizhenyu0128/gm-grpc/balancer"
+	"github.com/lizhenyu0128/gm-grpc/connectivity"
+	"github.com/lizhenyu0128/gm-grpc/resolver"
 )
 
 // The parent ClientConn should re-resolve when grpclb loses connection to the

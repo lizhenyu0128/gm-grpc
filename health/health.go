@@ -26,9 +26,9 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	healthpb "github.com/Hyperledger-TWGC/grpc/health/grpc_health_v1"
-	"github.com/Hyperledger-TWGC/grpc/status"
+	"github.com/lizhenyu0128/gm-grpc/codes"
+	healthpb "github.com/lizhenyu0128/gm-grpc/health/grpc_health_v1"
+	"github.com/lizhenyu0128/gm-grpc/status"
 )
 
 // Server implements `service Health`.

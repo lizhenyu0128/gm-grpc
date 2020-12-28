@@ -58,11 +58,11 @@ receives an error with details:
 exit status 1
 ```
 
-[status]:       https://godoc.org/github.com/Hyperledger-TWGC/grpc/status#Status
-[new-status]:   https://godoc.org/github.com/Hyperledger-TWGC/grpc/status#New
-[code]:         https://godoc.org/github.com/Hyperledger-TWGC/grpc/codes#Code
-[with-details]: https://godoc.org/github.com/Hyperledger-TWGC/grpc/status#Status.WithDetails
-[details]:      https://godoc.org/github.com/Hyperledger-TWGC/grpc/status#Status.Details
-[status-err]:   https://godoc.org/github.com/Hyperledger-TWGC/grpc/status#Status.Err
-[status-error]: https://godoc.org/github.com/Hyperledger-TWGC/grpc/status#Error
+[status]:       https://godoc.org/github.com/lizhenyu0128/gm-grpc/status#Status
+[new-status]:   https://godoc.org/github.com/lizhenyu0128/gm-grpc/status#New
+[code]:         https://godoc.org/github.com/lizhenyu0128/gm-grpc/codes#Code
+[with-details]: https://godoc.org/github.com/lizhenyu0128/gm-grpc/status#Status.WithDetails
+[details]:      https://godoc.org/github.com/lizhenyu0128/gm-grpc/status#Status.Details
+[status-err]:   https://godoc.org/github.com/lizhenyu0128/gm-grpc/status#Status.Err
+[status-error]: https://godoc.org/github.com/lizhenyu0128/gm-grpc/status#Error
 [example]:      https://github.com/grpc/grpc-go/blob/master/examples/rpc_errors

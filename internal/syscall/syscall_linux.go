@@ -26,7 +26,7 @@ import (
 	"syscall"
 
 	"golang.org/x/sys/unix"
-	"github.com/Hyperledger-TWGC/grpc/grpclog"
+	"github.com/lizhenyu0128/gm-grpc/grpclog"
 )
 
 // GetCPUTime returns the how much CPU time has passed since the start of this process.

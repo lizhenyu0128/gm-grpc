@@ -31,11 +31,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc"
-	"github.com/Hyperledger-TWGC/grpc/metadata"
-	"github.com/Hyperledger-TWGC/grpc/stats"
-	testpb "github.com/Hyperledger-TWGC/grpc/stats/grpc_testing"
-	"github.com/Hyperledger-TWGC/grpc/status"
+	"github.com/lizhenyu0128/gm-grpc"
+	"github.com/lizhenyu0128/gm-grpc/metadata"
+	"github.com/lizhenyu0128/gm-grpc/stats"
+	testpb "github.com/lizhenyu0128/gm-grpc/stats/grpc_testing"
+	"github.com/lizhenyu0128/gm-grpc/status"
 )
 
 func init() {

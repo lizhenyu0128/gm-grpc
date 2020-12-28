@@ -13,5 +13,5 @@
 安装此包最简单的方式就是运行以下命令:
 
 ```
-$ go get -u github.com/Hyperledger-TWGC/grpc
+$ go get -u github.com/lizhenyu0128/gm-grpc
 ```

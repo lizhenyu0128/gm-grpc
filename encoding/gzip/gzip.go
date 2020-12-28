@@ -28,7 +28,7 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/Hyperledger-TWGC/grpc/encoding"
+	"github.com/lizhenyu0128/gm-grpc/encoding"
 )
 
 // Name is the name registered for the gzip compressor.

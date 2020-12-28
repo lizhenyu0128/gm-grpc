@@ -20,7 +20,7 @@ import math "math"
 
 import (
 	context "golang.org/x/net/context"
-	grpc "github.com/Hyperledger-TWGC/grpc"
+	grpc "github.com/lizhenyu0128/gm-grpc"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

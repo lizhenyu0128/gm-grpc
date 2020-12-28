@@ -25,9 +25,9 @@ import (
 
 	"golang.org/x/net/context"
 	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
-	"github.com/Hyperledger-TWGC/grpc"
-	pb "github.com/Hyperledger-TWGC/grpc/examples/helloworld/helloworld"
-	"github.com/Hyperledger-TWGC/grpc/status"
+	"github.com/lizhenyu0128/gm-grpc"
+	pb "github.com/lizhenyu0128/gm-grpc/examples/helloworld/helloworld"
+	"github.com/lizhenyu0128/gm-grpc/status"
 )
 
 func main() {

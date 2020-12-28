@@ -9,7 +9,7 @@ import math "math"
 
 import (
 	context "golang.org/x/net/context"
-	grpc "github.com/Hyperledger-TWGC/grpc"
+	grpc "github.com/lizhenyu0128/gm-grpc"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -116,7 +116,7 @@ const _ = grpc.SupportPackageIsVersion4
 
 // GreeterClient is the client API for Greeter service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/Hyperledger-TWGC/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/lizhenyu0128/gm-grpc#ClientConn.NewStream.
 type GreeterClient interface {
 	// Sends a greeting
 	SayHello(ctx context.Context, in *HelloRequest, opts ...grpc.CallOption) (*HelloReply, error)

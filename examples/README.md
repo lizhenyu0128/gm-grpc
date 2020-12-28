@@ -21,8 +21,8 @@ INSTALL
 -------
 
 ```
-$ go get -u github.com/Hyperledger-TWGC/grpc/examples/helloworld/greeter_client
-$ go get -u github.com/Hyperledger-TWGC/grpc/examples/helloworld/greeter_server
+$ go get -u github.com/lizhenyu0128/gm-grpc/examples/helloworld/greeter_client
+$ go get -u github.com/lizhenyu0128/gm-grpc/examples/helloworld/greeter_server
 ```
 
 TRY IT!
@@ -54,7 +54,7 @@ OPTIONAL - Rebuilding the generated code
 1. Rebuild the generated Go code
 
    ```
-   $ go generate github.com/Hyperledger-TWGC/grpc/examples/helloworld/...
+   $ go generate github.com/lizhenyu0128/gm-grpc/examples/helloworld/...
    ```
    
    Or run `protoc` command (with the grpc plugin)

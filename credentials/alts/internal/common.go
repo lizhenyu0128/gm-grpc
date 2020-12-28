@@ -25,7 +25,7 @@ import (
 	"net"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc/credentials"
+	"github.com/lizhenyu0128/gm-grpc/credentials"
 )
 
 const (

@@ -32,7 +32,7 @@ import (
 	cpb "google.golang.org/genproto/googleapis/rpc/code"
 	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
 	spb "google.golang.org/genproto/googleapis/rpc/status"
-	"github.com/Hyperledger-TWGC/grpc/codes"
+	"github.com/lizhenyu0128/gm-grpc/codes"
 )
 
 func TestErrorsWithSameParameters(t *testing.T) {

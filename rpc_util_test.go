@@ -27,12 +27,12 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/encoding"
-	protoenc "github.com/Hyperledger-TWGC/grpc/encoding/proto"
-	"github.com/Hyperledger-TWGC/grpc/internal/transport"
-	"github.com/Hyperledger-TWGC/grpc/status"
-	perfpb "github.com/Hyperledger-TWGC/grpc/test/codec_perf"
+	"github.com/lizhenyu0128/gm-grpc/codes"
+	"github.com/lizhenyu0128/gm-grpc/encoding"
+	protoenc "github.com/lizhenyu0128/gm-grpc/encoding/proto"
+	"github.com/lizhenyu0128/gm-grpc/internal/transport"
+	"github.com/lizhenyu0128/gm-grpc/status"
+	perfpb "github.com/lizhenyu0128/gm-grpc/test/codec_perf"
 )
 
 type fullReader struct {

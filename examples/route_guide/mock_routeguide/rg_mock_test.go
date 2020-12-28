@@ -26,8 +26,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
-	rgmock "github.com/Hyperledger-TWGC/grpc/examples/route_guide/mock_routeguide"
-	rgpb "github.com/Hyperledger-TWGC/grpc/examples/route_guide/routeguide"
+	rgmock "github.com/lizhenyu0128/gm-grpc/examples/route_guide/mock_routeguide"
+	rgpb "github.com/lizhenyu0128/gm-grpc/examples/route_guide/routeguide"
 )
 
 var msg = &rgpb.RouteNote{

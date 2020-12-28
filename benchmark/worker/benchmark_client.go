@@ -26,16 +26,16 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc"
-	"github.com/Hyperledger-TWGC/grpc/benchmark"
-	testpb "github.com/Hyperledger-TWGC/grpc/benchmark/grpc_testing"
-	"github.com/Hyperledger-TWGC/grpc/benchmark/stats"
-	"github.com/Hyperledger-TWGC/grpc/codes"
-	"github.com/Hyperledger-TWGC/grpc/credentials"
-	"github.com/Hyperledger-TWGC/grpc/grpclog"
-	"github.com/Hyperledger-TWGC/grpc/internal/syscall"
-	"github.com/Hyperledger-TWGC/grpc/status"
-	"github.com/Hyperledger-TWGC/grpc/testdata"
+	"github.com/lizhenyu0128/gm-grpc"
+	"github.com/lizhenyu0128/gm-grpc/benchmark"
+	testpb "github.com/lizhenyu0128/gm-grpc/benchmark/grpc_testing"
+	"github.com/lizhenyu0128/gm-grpc/benchmark/stats"
+	"github.com/lizhenyu0128/gm-grpc/codes"
+	"github.com/lizhenyu0128/gm-grpc/credentials"
+	"github.com/lizhenyu0128/gm-grpc/grpclog"
+	"github.com/lizhenyu0128/gm-grpc/internal/syscall"
+	"github.com/lizhenyu0128/gm-grpc/status"
+	"github.com/lizhenyu0128/gm-grpc/testdata"
 )
 
 var caFile = flag.String("ca_file", "", "The file containing the CA root cert file")

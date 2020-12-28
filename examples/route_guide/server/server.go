@@ -37,14 +37,14 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc"
+	"github.com/lizhenyu0128/gm-grpc"
 
-	"github.com/Hyperledger-TWGC/grpc/credentials"
-	"github.com/Hyperledger-TWGC/grpc/testdata"
+	"github.com/lizhenyu0128/gm-grpc/credentials"
+	"github.com/lizhenyu0128/gm-grpc/testdata"
 
 	"github.com/golang/protobuf/proto"
 
-	pb "github.com/Hyperledger-TWGC/grpc/examples/route_guide/routeguide"
+	pb "github.com/lizhenyu0128/gm-grpc/examples/route_guide/routeguide"
 )
 
 var (

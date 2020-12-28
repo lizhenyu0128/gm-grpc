@@ -21,7 +21,7 @@
 
 package transport
 
-import "github.com/Hyperledger-TWGC/grpc/grpclog"
+import "github.com/lizhenyu0128/gm-grpc/grpclog"
 
 const logLevel = 2
 
