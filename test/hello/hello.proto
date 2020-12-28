@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+service communicate {
+    rpc Speak (Content) returns (Content){}
+}
+
+message Content {
+     string detail = 1;
+}
